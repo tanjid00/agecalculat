@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Age Calculate</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="container-1">
+            <h2> Check Your Age . </h2>
+            <div class="flex-box-container-1">
+
+                <div>
+                    <button class="btn btn-primary" onclick='ageInDays()'>Click Here</button>
+                </div>
+
+                <div>
+                    <button class="btn btn-danger" onclick='reset()'>Reset</button>
+                </div>
+            </div>
+            <div class="flex-box-container-1">
+                <div id="flex-box-result"></div>
+            </div>
+        </div>
+
+        <div class="container-2">
+
+            <span>Enter Age : </span>
+            <input type="text" id="age" class="form-control" placeholder="Enter Age"> <br>
+            <span>Check : </span>
+            <input type="submit" class="btn btn-outline-primary form-control" value="Check" onclick="change()"> <br>
+            <span>Months : </span>
+            <input type="text" id="months" class="form-control" placeholder=" Age in Months"> <br>
+            <span>Days : </span>
+            <input type="text" id="days" class="form-control" placeholder="Age in Days"> <br>
+            <span>Hours : </span>
+            <input type="text" id="hours" class="form-control" placeholder=" Age in Hours"> <br>
+            <span>Minutes : </span>
+            <input type="text" id="minutes" class="form-control" placeholder=" Age in Minutes"> <br>
+            <span>Seconds : </span>
+            <input type="text" id="seconds" class="form-control" placeholder=" Age in Seconds"> <br>
+
+        </div>
+
+        <div class="footer">
+            <div class="container-3">
+                <h3> Have a sweet Day.. </h3>
+            </div>
+
+            <div class="container-4">
+                <h3> <span>Developer by Tanjid.</span> </h3>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js" type="text/javascript">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+body {
+    background: #8080802b;
+    font-size: 30px;
+}
+
+.container-fluid {
+    background: #0000002e;
+    box-shadow: 2px -3px 12px 6px;
+    width: 80%;
+    position: ;
+    margin-left: ;
+    display: block;
+}
+
+.container-1 {
+    border: 1px solid #0000003b;
+    width: ;
+    margin: 0 auto;
+    text-align: center;
+    background: #262626;
+    margin-top: 20;
+    padding-top: 15px;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid #0000000f;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box-container-1 div {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f5f5f57d;
+    border-radius: 5px;
+}
+
+.container-1 h2 {
+    color: #c1d3dc;
+    padding: 5px;
+    font-style: oblique;
+    font-size: 35px;
+    border-bottom: 1px solid #ffffffab;
+}
+
+h3#ageInDays {
+    font-style: italic;
+    color: #c1d3dc;
+    font-size: 25px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container-2 {
+    border: 1px solid #0000003b;
+    width: ;
+    margin: 0 auto;
+    text-align: center;
+    background: #262626;
+    margin-top: 15;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-2 span {
+    font-style: oblique;
+    font-weight: bold;
+    color: #ffffffb3;
+}
+
+.container-3 h3 {
+    color: #5488a2d6;
+    padding: 10px;
+    margin: 5px;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-4 h3 span {
+    color: #808080db;
+    font-size: 20px;
+    font-style: italic;
+    float: ;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    line-height: 3;
+}
+
+.footer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
